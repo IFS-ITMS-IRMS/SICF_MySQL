@@ -17,8 +17,7 @@ In the Python scripts the connector uses the following configuration:
 
 Therefore, in the local MySQL application the user `IFS` has to be created and the necessary configurations have to be made to allow the Python scripts to run, create, and manipulate the database.  
 We recommend using the [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to make the necessary local configurations.  
-To install mysql.connector-python we recommend using pip3, running the following from the command line: `pip3 install mysql.connector-python`
-Detailed instructions can be found [here](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/tree/main/Documentation/Install-Mock-up-db-IFS).
+To install mysql.connector-python we recommend using pip3, running the following from the command line: `pip3 install mysql.connector-python`. Detailed instructions can be found [here](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/tree/main/Documentation/Install-Mock-up-db-IFS).
 
 ## Structure of the Python Scripts
 
