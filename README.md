@@ -17,7 +17,7 @@ In the Python scripts the connector uses the following configuration:
 Therefore, in the local MySQL application the user `IFS` has to be created and the necessary configurations have to be made to allow the Python scripts to run, create, and manipulate the database.  
 We recommend using the [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to make the necessary local configurations.  
 To install mysql.connector-python we recommend using pip3, running the following from the command line: `pip3 install mysql.connector-python`
-Detailed instructions can be found [here]().
+Detailed instructions can be found [here](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/tree/main/Documentation/Install-Mock-up-db-IFS).
 
 ## Structure of the Python Scripts
 
@@ -53,8 +53,8 @@ SICF_MySQL
 #### Creating the Database and Tables
 The tables are ordered into numbered levels depending on their dependencies on other tables. As these dependencies give the order the tables have to be created resp. dropped in, they are sorted into their respective `create_tables_LXX.py` and `drop_tables_LXX.py` scripts.  
 In the `main_MySQL_Database.py` script the create- and drop-function-calls can be commented or uncommented to steer what is done during any run of `main_MySQL_Database.py`.  
-To generate the ER-Diagram using the MySQL Workbench these [instructions]() can be followed.
+To generate the ER-Diagram using the MySQL Workbench these [instructions](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/tree/main/Documentation/Generate-ER-Diagram) can be followed.
 
 #### Documentation
-All tables are given a number within their level and are identified as LXX:YYY, e.g., L02:005 is the fifth table in Level 2. The ordering of the tables within one level can be treated as arbitrary, but the same table is identified with its number in `create_tables_LXX.py`, `drop_tables_LXX.py` as well as in the ER-schema, [ER_Schema.pdf]().  
+All tables are given a number within their level and are identified as LXX:YYY, e.g., L02:005 is the fifth table in Level 2. The ordering of the tables within one level can be treated as arbitrary, but the same table is identified with its number in `create_tables_LXX.py`, `drop_tables_LXX.py` as well as in the ER-schema, [ER_Schema.pdf](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/blob/main/Documentation/ER_Schema_MySQL_DB.pdf).  
 Constraints that are not foreign key constraints are documented in the ER-Schema.
