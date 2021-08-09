@@ -14,6 +14,7 @@ In the Python scripts the connector uses the following configuration:
 - `user="IFS"`
 - `password="IFS_pw"`
 - `database="Mock_up_DB"`
+
 Therefore, in the local MySQL application the user `IFS` has to be created and the necessary configurations have to be made to allow the Python scripts to run, create, and manipulate the database.  
 We recommend using the [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to make the necessary local configurations.  
 To install mysql.connector-python we recommend using pip3, running the following from the command line: `pip3 install mysql.connector-python`
@@ -57,4 +58,4 @@ To generate the ER-Diagram using the MySQL Workbench these [instructions](https:
 
 #### Documentation
 All tables are given a number within their level and are identified as LXX:YYY, e.g., L02:005 is the fifth table in Level 2. The ordering of the tables within one level can be treated as arbitrary, but the same table is identified with its number in `create_tables_LXX.py`, `drop_tables_LXX.py` as well as in the ER-schema, [ER_Schema.pdf](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/blob/main/Documentation/ER_Schema_MySQL_DB.pdf).  
-Constraints that are not foreign key constraints are documented in the ER-Schema.
+Constraints that are not foreign key constraints are documented in the ER-schema.
