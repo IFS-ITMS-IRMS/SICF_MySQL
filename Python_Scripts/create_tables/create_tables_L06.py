@@ -77,6 +77,9 @@ def create_tables_l06():
 				FOREIGN KEY (id_fundstelle_flur_lieu_dit)
 					REFERENCES fundstelle_flur_lieu_dit(id_fundstelle_flur_lieu_dit),
 
+				FOREIGN KEY (old_id_fundstelle_flur_lieu_dit)
+					REFERENCES fundstelle_flur_lieu_dit(id_fundstelle_flur_lieu_dit),
+
 				FOREIGN KEY (entry_creator_id_user)
 					REFERENCES user(id_user),
 
