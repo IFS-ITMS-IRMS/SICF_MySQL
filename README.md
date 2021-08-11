@@ -1,7 +1,7 @@
 # SICF - Mock-up MySQL Database
 
 ## Purpose
-The scripts in this repository can be run to create the tables of the SICF MySQL database. The intention is to show what attributes consititue an entity and by implementing the foreign key constraints, the relationships between the tables are modelled. This mock-up database is intended as a (data-type-wise and not-foreign-key-constraint-wise naive) scaffolding that the MySQL database containing the SICF-data will be built upon.
+The scripts in this repository can be run to create the tables of the SICF MySQL database. The intention is to show what attributes constitute an entity and by implementing the foreign key constraints, the relationships between the tables are modelled. This mock-up database is intended as a (data-type-wise and not-foreign-key-constraint-wise naive) scaffolding that the MySQL database containing the SICF-data will be built upon.
 
 ## Requirements
 To be able to run the scripts the following should be installed on the computer:
