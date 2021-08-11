@@ -119,7 +119,7 @@ Now you are ready to create the tables of the database with the python scripts. 
 
 This will create all tables of the database. 
 
-How you can visualize the data model in MySQL Workbench is explained in document *ER-Diagram MySQL Workbench.pdf*.
+How you can visualize the data model in MySQL Workbench is explained in  the document [*ER-Diagram MySQL Workbench.pdf*](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/blob/main/Documentation/Generate-ER-Diagram/Generate_ER_Diagram.pdf).
 
 
 
