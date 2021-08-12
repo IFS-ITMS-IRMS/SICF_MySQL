@@ -51,6 +51,7 @@ def drop_tables_l02():
 	cur.execute("DROP TABLE IF EXISTS primary_source_document_citation") # L02:029
 	cur.execute("DROP TABLE IF EXISTS remark_user_bibliography_text") # L02:030
 	cur.execute("DROP TABLE IF EXISTS remark_user_bibliography_numeric") # L02:031
+	cur.execute("DROP TABLE IF EXISTS archaeological_event_part") # L02:032
 
 	print("L02-tables dropped")
 	return

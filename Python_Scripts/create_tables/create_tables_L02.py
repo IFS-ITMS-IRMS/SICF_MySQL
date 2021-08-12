@@ -1281,6 +1281,41 @@ def create_tables_l02():
 
 	""")
 
+	# L02:032
+	cur.execute("""
+				CREATE TABLE archaeological_event_part(
+
+				id_archaeological_event_part INT AUTO_INCREMENT PRIMARY KEY,
+				public BOOLEAN,
+				id_archaeological_event INT,
+				part_id_archaeological_event INT,
+				comment_internal VARCHAR(255),
+				entry_created_date DATE,
+				entry_creator_id_user INT,
+				transfer_date DATE,
+				transfer_id_data_source INT,
+				last_modified_date DATE,
+				last_modification_id_user INT,
+
+				FOREIGN KEY (id_archaeological_event)
+					REFERENCES archaeological_event(id_archaeological_event),
+
+				FOREIGN KEY (part_id_archaeological_event)
+					REFERENCES archaeological_event(id_archaeological_event),
+
+				FOREIGN KEY (entry_creator_id_user)
+					REFERENCES user(id_user),
+
+				FOREIGN KEY (transfer_id_data_source)
+					REFERENCES data_source(id_data_source),
+
+				FOREIGN KEY (last_modification_id_user)
+					REFERENCES user(id_user)
+
+				)
+
+	""")
+
 	print("L02-tables created")
 
 	return
