@@ -3,7 +3,7 @@
 ## Purpose
 
 This Graph shows the modelled tables, what attributes constitute them and what colours they are. The connections between the tables are intentionally left out to maintain the readability.  
-The user und data history is not modelled.
+The user and data history is not modelled.
 
 ## Displaying the Graph
 
