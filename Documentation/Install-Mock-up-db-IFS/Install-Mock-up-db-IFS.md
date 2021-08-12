@@ -31,6 +31,30 @@ In the Python scripts the connector uses the following configuration:
 
 
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+
 ## Create connection IFS and user IFS
 
 When you open MySQL Workbench for the first time, your window should look like this:
@@ -58,6 +82,8 @@ After having successfully connected to your server, your window should look like
 ![3](Images/4.png)
 
 
+
+<br>
 
 Add a user *IFS* with password *IFS_pw*:
 
