@@ -5776,7 +5776,7 @@ manual_order_number<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
     <node id="n225">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="124.20853840608106" width="253.59153230718277" x="-990.030629888" y="5848.990034720184"/>
+          <y:Geometry height="124.20853840608106" width="253.59153230718277" x="-990.030629888" y="5991.913923538596"/>
           <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="225.466796875" x="14.06236771609133" xml:space="preserve" y="4.0">find_Art der Fundstelle_category_junction</y:NodeLabel>
@@ -5795,7 +5795,7 @@ manual_order_number<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
     <node id="n226">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="124.20853840608106" width="253.59153230718277" x="-990.030629888" y="6008.254753748221"/>
+          <y:Geometry height="124.20853840608106" width="253.59153230718277" x="-990.030629888" y="6151.178642566633"/>
           <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="202.123046875" x="25.73424271609133" xml:space="preserve" y="4.0">find_Art der Fundstelle_type_junction</y:NodeLabel>
@@ -5814,7 +5814,7 @@ manual_order_number<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
     <node id="n227">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="124.20853840608106" width="253.59153230718277" x="-990.030629888" y="6167.519472776259"/>
+          <y:Geometry height="124.20853840608106" width="253.59153230718277" x="-990.030629888" y="6310.443361594671"/>
           <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="208.12890625" x="22.73131302859133" xml:space="preserve" y="4.0">find_Art der Fundstelle_detail_junction</y:NodeLabel>
@@ -5871,6 +5871,24 @@ comment_public_german
 comment_public_french
 comment_public_italian
 comment_public_english
+comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n230">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="107.86770819645517" width="253.59153230718277" x="-990.030629888" y="5848.990034720184"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="144.765625" x="54.41295365359133" xml:space="preserve" y="4.0">archaeological_event_part</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="160.779296875" x="2.0" xml:space="preserve" y="30.701171875">id_archaeological_event_part
+public
+id_archaeological_event
+part_id_archaeolocial_event
 comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
