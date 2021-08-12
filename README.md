@@ -32,7 +32,7 @@ SICF_MySQL
 		-> Generate-ER-Diagram
 		-> Install-Mock-up-db-IFS
 		-> ER_Schema.pdf
-		-> (TODO: Word Rahel)
+		-> IFS_Datenmodellierung_Kernpunkte.pdf
 	-> Python_Scripts
 		|
 		-> main_MySQL_Database.py
