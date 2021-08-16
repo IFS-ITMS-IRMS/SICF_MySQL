@@ -702,6 +702,46 @@ def create_tables_l04():
 
 	""")
 
+	# L04:016
+	cur.execute("""
+				CREATE TABLE  bibliography_editor_author_junction(
+
+				id_bibliography_editor_author_junction INT AUTO_INCREMENT PRIMARY KEY,
+				public BOOLEAN,
+				id_bibliography INT,
+				editor_flag BOOLEAN,
+				id_modern_person_name INT,
+				id_organisation_name INT,
+				manual_order_number INT,
+				entry_created_date DATE,
+				entry_creator_id_user INT,
+				transfer_date DATE,
+				transfer_id_data_source INT,
+				last_modified_date DATE,
+				last_modification_id_user INT,
+
+				FOREIGN KEY (id_bibliography)
+					REFERENCES bibliography(id_bibliography),
+
+				FOREIGN KEY (id_modern_person_name)
+					REFERENCES modern_person_name(id_modern_person_name),
+
+				FOREIGN KEY (id_organisation_name)
+					REFERENCES organisation_name(id_organisation_name),
+
+				FOREIGN KEY (entry_creator_id_user)
+					REFERENCES user(id_user),
+
+				FOREIGN KEY (transfer_id_data_source)
+					REFERENCES data_source(id_data_source),
+
+				FOREIGN KEY (last_modification_id_user)
+					REFERENCES user(id_user)
+
+				)
+
+	""")
+
 	print("L04-tables created")
 
 	return

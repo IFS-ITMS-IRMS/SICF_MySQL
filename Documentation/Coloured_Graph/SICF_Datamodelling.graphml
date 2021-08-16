@@ -1228,11 +1228,11 @@ comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:
     <node id="n43">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="1580.5317220118914" width="365.45717302808725" x="7617.271413485956" y="60.761089640300725"/>
+          <y:Geometry height="1594.4605867472692" width="365.45717302808725" x="7617.271413485956" y="60.761089640300725"/>
           <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.04296875" x="151.70710213904385" xml:space="preserve" y="4.0">find_object</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="1547.623046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="253.486328125" x="2.0" xml:space="preserve" y="30.701171875">id_find_object
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="1562.32421875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="277.533203125" x="2.0" xml:space="preserve" y="30.701171875">id_find_object
 public
 id_find
 Münznummer
@@ -1243,6 +1243,7 @@ archaeological_details_edited_remark_english
 long_ch_lv95_e
 lat_ch_lv95_n
 altitude_ch
+individual_object_coordinates_id_yes_no_unknown
 geodata_text_german
 geodata_text_french
 geodata_text_italian
@@ -5890,6 +5891,26 @@ public
 id_archaeological_event
 part_id_archaeolocial_event
 comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n231">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="140.11652997202214" width="229.66863705945934" x="-1524.8343185297297" y="3388.05136972631"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="194.13671875" x="17.76595915472967" xml:space="preserve" y="4.0">bibliography_editor_author_junction</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="210.150390625" x="2.0" xml:space="preserve" y="30.701171875">id_bibliography_editor_author_junction
+public
+id_bibliography
+editor_flag
+id_modern_person_name
+id_organisation_name
+manual_order_number<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>

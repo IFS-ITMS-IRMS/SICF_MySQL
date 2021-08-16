@@ -35,6 +35,7 @@ def drop_tables_l04():
 	cur.execute("DROP TABLE IF EXISTS period") # L04:013
 	cur.execute("DROP TABLE IF EXISTS primary_source_document_editor_junction") # L04:014
 	cur.execute("DROP TABLE IF EXISTS user_modern_person_junction") # L04:015
+	cur.execute("DROP TABLE IF EXISTS bibliography_editor_author_junction") # L04:016
 
 	print("L04-tables dropped")
 	return

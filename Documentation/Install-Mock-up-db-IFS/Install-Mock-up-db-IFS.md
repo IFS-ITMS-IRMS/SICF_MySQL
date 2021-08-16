@@ -55,7 +55,7 @@ In the Python scripts the connector uses the following configuration:
 
 
 
-## Create connection IFS and user IFS
+## Create Connection IFS and User IFS
 
 When you open MySQL Workbench for the first time, your window should look like this:
 
@@ -93,7 +93,7 @@ Add a user *IFS* with password *IFS_pw*:
 
 <br>
 
-## Create database Mock-up-DB
+## Create Database Mock-up-DB
 
 Click on *SQL+* or the *Administration* tab:
 
@@ -105,11 +105,11 @@ Enter on the command line `CREATE DATABASE Mock-up-DB` and hit enter.
 
 ![7](Images/7.png)
 
-Now the database is created and your user *IFS* exists. You still have to provide your user with the necessary permissions to create and drop tables with the python scripts.
+Now the database is created and your user *IFS* exists. You still have to provide your user with the necessary permissions to create and drop tables with the Python scripts.
 
 
 
-## Set permissions for user IFS
+## Set Permissions for User IFS
 
 Click on tab *Administration*, select *Users and Privileges*, then the user *IFS* und click on tab *Schema Privileges*:
 
@@ -137,9 +137,9 @@ Now change to the tab *Administrative Roles* and grant *DBA* on top which will a
 
 <br>
 
-## Run python scripts
+## Run Python Scripts
 
-Now you are ready to create the tables of the database with the python scripts. Change to folder *IFS_DB_project/Mock_up_data_modeling* and run the script *main_mock_up_db.py*: 
+Now you are ready to create the tables of the database with the Python scripts. Change to folder *IFS_DB_project/Mock_up_data_modeling* and run the script *main_mock_up_db.py*: 
 
 `python3 main_mock_up_db.py`
 
@@ -151,7 +151,7 @@ How you can visualize the data model in MySQL Workbench is explained in  the doc
 
 <br>
 
-## Trouble shooting on MacOS
+## Trouble Shooting on MacOS
 
 If you receive an error message such as
 

@@ -510,6 +510,7 @@ def create_tables_l07():
 				long_ch_lv95_e FLOAT,
 				lat_ch_lv95_n FLOAT,
 				altitude_ch FLOAT,
+				individual_object_coordinates_id_yes_no_unknown INT,
 				geodata_text_german TEXT,
 				geodata_text_french TEXT,
 				geodata_text_italian TEXT,
@@ -613,6 +614,9 @@ def create_tables_l07():
 
 				FOREIGN KEY (id_find)
 					REFERENCES find(id_find),
+
+				FOREIGN KEY (individual_object_coordinates_id_yes_no_unknown)
+					REFERENCES yes_no_unknown(id_yes_no_unknown),
 
 				FOREIGN KEY (id_object_category)
 					REFERENCES object_category(id_object_category),
