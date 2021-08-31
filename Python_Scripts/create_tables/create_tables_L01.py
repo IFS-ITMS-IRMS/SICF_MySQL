@@ -330,7 +330,7 @@ def create_tables_l01():
 				first_names_initials VARCHAR(255),
 				id_gender INT,
 				name_main_entry_flag BOOLEAN,
-				name_erronious_flag BOOLEAN,
+				name_erroneous_flag BOOLEAN,
 				name_nom_de_plume_flag BOOLEAN,
 				date_from DATE,
 				date_to DATE,
