@@ -35,8 +35,7 @@ def create_tables_l04():
 				date_to DATE,
 				id_numismatic_time_slice_from INT,
 				id_numismatic_time_slice_to INT,
-				id_era_from INT,
-				id_era_to INT,
+				id_era INT,
 				comment_public_german VARCHAR(255),
 				comment_public_french VARCHAR(255),
 				comment_public_italian VARCHAR(255),
@@ -59,10 +58,7 @@ def create_tables_l04():
 				FOREIGN KEY (id_numismatic_time_slice_to)
 					REFERENCES numismatic_time_slice(id_numismatic_time_slice),
 
-				FOREIGN KEY (id_era_from)
-					REFERENCES era(id_era),
-
-				FOREIGN KEY (id_era_to)
+				FOREIGN KEY (id_era)
 					REFERENCES era(id_era),
 
 				FOREIGN KEY (entry_creator_id_user)
@@ -85,14 +81,14 @@ def create_tables_l04():
 				public BOOLEAN,
 				id_mint INT,
 				mint_acronym VARCHAR(255),
+				order_number INT,
 				name_german VARCHAR(255),
 				name_french VARCHAR(255),
 				name_italian VARCHAR(255),
 				name_english VARCHAR(255),
 				id_numismatic_time_slice_from INT,
 				id_numismatic_time_slice_to INT,
-				id_era_from INT,
-				id_era_to INT,
+				id_era INT,
 				comment_public_german VARCHAR(255),
 				comment_public_french VARCHAR(255),
 				comment_public_italian VARCHAR(255),
@@ -115,10 +111,7 @@ def create_tables_l04():
 				FOREIGN KEY (id_numismatic_time_slice_to)
 					REFERENCES numismatic_time_slice(id_numismatic_time_slice),
 
-				FOREIGN KEY (id_era_from)
-					REFERENCES era(id_era),
-
-				FOREIGN KEY (id_era_to)
+				FOREIGN KEY (id_era)
 					REFERENCES era(id_era),
 
 				FOREIGN KEY (entry_creator_id_user)
@@ -528,6 +521,7 @@ def create_tables_l04():
 				lat_ch_lv95_n FLOAT,
 				altitude_ch FLOAT,
 				polygon VARCHAR(255),
+				id_place INT,
 				comment_public_german VARCHAR(255),
 				comment_public_french VARCHAR(255),
 				comment_public_italian VARCHAR(255),
@@ -542,6 +536,9 @@ def create_tables_l04():
 
 				FOREIGN KEY (id_commune)
 					REFERENCES commune(id_commune),
+
+				FOREIGN KEY (id_place)
+					REFERENCES place(id_place),
 
 				FOREIGN KEY (entry_creator_id_user)
 					REFERENCES user(id_user),

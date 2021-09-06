@@ -425,6 +425,7 @@ def create_tables_l03():
 				lat_wgs84 FLOAT,
 				long_wgs84 FLOAT,
 				polygon VARCHAR(255),
+				id_place INT,
 				comment_public_german VARCHAR(255),
 				comment_public_french VARCHAR(255),
 				comment_public_italian VARCHAR(255),
@@ -442,6 +443,9 @@ def create_tables_l03():
 
 				FOREIGN KEY (id_district)
 					REFERENCES district(id_district),
+
+				FOREIGN KEY (id_place)
+					REFERENCES place(id_place),
 
 				FOREIGN KEY (entry_creator_id_user)
 					REFERENCES user(id_user),

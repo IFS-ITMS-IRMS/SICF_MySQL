@@ -77,8 +77,7 @@ def create_tables_l01():
 				value_english VARCHAR(255),
 				date_from DATE,
 				date_to DATE,
-				id_era_from INT,
-				id_era_to INT,
+				id_era INT,
 				comment_public_german VARCHAR(255),
 				comment_public_french VARCHAR(255),
 				comment_public_italian VARCHAR(255),
@@ -92,10 +91,7 @@ def create_tables_l01():
 				last_modified_date DATE,
 				last_modification_id_user INT,
 
-				FOREIGN KEY (id_era_from)
-					REFERENCES era(id_era),
-
-				FOREIGN KEY (id_era_to)
+				FOREIGN KEY (id_era)
 					REFERENCES era(id_era),
 
 				FOREIGN KEY (entry_creator_id_user)

@@ -37,8 +37,7 @@ def create_tables_l02():
 				value_english_alternative VARCHAR(255),
 				id_numismatic_time_slice_from INT,
 				id_numismatic_time_slice_to INT,
-				id_era_from INT,
-				id_era_to INT,
+				id_era INT,
 				comment_public_german VARCHAR(255),
 				comment_public_french VARCHAR(255),
 				comment_public_italian VARCHAR(255),
@@ -58,10 +57,7 @@ def create_tables_l02():
 				FOREIGN KEY (id_numismatic_time_slice_to)
 					REFERENCES numismatic_time_slice(id_numismatic_time_slice),
 
-				FOREIGN KEY (id_era_from)
-					REFERENCES era(id_era),
-
-				FOREIGN KEY (id_era_to)
+				FOREIGN KEY (id_era)
 					REFERENCES era(id_era),
 
 				FOREIGN KEY (entry_creator_id_user)
@@ -772,9 +768,9 @@ def create_tables_l02():
 
 	# L02:019
 	cur.execute("""
-				CREATE TABLE bibliography_bibliography_relation(
+				CREATE TABLE bibliography_bibliography_part(
 
-				id_bibliography_bibliography_relation INT AUTO_INCREMENT PRIMARY KEY,
+				id_bibliography_bibliography_part INT AUTO_INCREMENT PRIMARY KEY,
 				public BOOLEAN,
 				id_bibliography INT,
 				part_id_bibliography INT,

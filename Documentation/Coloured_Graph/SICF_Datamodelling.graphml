@@ -77,11 +77,11 @@ value_english<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:Mod
     <node id="n3">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="285.18100880186694" width="188.0" x="626.0" y="1490.4999999999995"/>
+          <y:Geometry height="271.83830995985295" width="188.0" x="626.0" y="1490.4999999999995"/>
           <y:Fill color="#FFFF99" color2="#FFFF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#FFFF00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="124.703125" x="31.6484375" xml:space="preserve" y="4.0">numismatic_time_slice</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="253.919921875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.390625" x="2.0" xml:space="preserve" y="30.701171875">id_numismatic_time_slice
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="239.21875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.390625" x="2.0" xml:space="preserve" y="30.701171875">id_numismatic_time_slice
 public
 numismatic_time_slice_acronym
 value_german
@@ -90,8 +90,7 @@ value_italian
 value_english
 date_from
 date_to
-id_era_from
-id_era_to
+id_era
 comment_public_german 
 comment_public_french
 comment_public_italian
@@ -364,11 +363,11 @@ gnd_id<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParam
     <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="347.428491708706" width="266.4" x="-450.030629888" y="660.6893806116054"/>
+          <y:Geometry height="332.4179555114405" width="266.4" x="-450.030629888" y="660.6893806116054"/>
           <y:Fill color="#00BFFF" color2="#1E90FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#1E90FF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.052734375" x="95.17363281249999" xml:space="preserve" y="4.0">denomination</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="312.724609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="171.390625" x="2.0" xml:space="preserve" y="30.701171875">id_denomination
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="298.0234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="171.390625" x="2.0" xml:space="preserve" y="30.701171875">id_denomination
 public
 denomination_acronym
 value_german
@@ -381,8 +380,7 @@ value_english
 value_english_alternative
 id_numismatic_time_slice_from
 id_numismatic_time_slice_to
-id_era_from
-id_era_to
+id_era
 comment_public_german 
 comment_public_french
 comment_public_italian
@@ -547,11 +545,11 @@ comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:
     <node id="n20">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="418.47593477533746" width="271.24325846486477" x="1210.6315454062703" y="1020.7620326123314"/>
+          <y:Geometry height="431.81863361735145" width="271.24325846486477" x="1210.63154540627" y="1020.7620326123314"/>
           <y:Fill color="#FFFF99" color2="#FFFF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#FFFF00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="56.6875" x="107.27787923243227" xml:space="preserve" y="4.000000000000114">commune</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="386.23046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="166.140625" x="2.0" xml:space="preserve" y="30.701171875000114">id_commune
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="400.931640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="166.140625" x="2.0" xml:space="preserve" y="30.701171875000114">id_commune
 public
 fso_code
 commune_active_flag
@@ -572,6 +570,7 @@ altitude_ch
 lat_wgs84
 long_wgs84
 polygon
+id_place
 comment_public_german
 comment_public_french
 comment_public_italian
@@ -1752,11 +1751,11 @@ nomisma_org_id<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:Mo
     <node id="n58">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="303.0027354997083" width="240.0612597760001" x="-990.030629888" y="60.656717145946004"/>
+          <y:Geometry height="315.5115156640963" width="240.0612597760001" x="-990.030629888" y="60.656717145946004"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.376953125" x="69.34215332550002" xml:space="preserve" y="4.0">Fundstelle Ort/lieu</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="268.62109375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="165.419921875" x="2.0" xml:space="preserve" y="30.701171875">ID Fundstelle Ort/lieu
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="283.322265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="165.419921875" x="2.0" xml:space="preserve" y="30.701171875">ID Fundstelle Ort/lieu
 public
 id_commune
 Fundstelle Ort/lieu_active_flag
@@ -1769,6 +1768,7 @@ long_ch_lv95_e
 lat_ch_lv95_n
 altitude_ch
 polygon
+id_place
 comment_public_german
 comment_public_french
 comment_public_italian
@@ -2407,11 +2407,11 @@ comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="315.43972931880694" width="236.77292543999994" x="-448.38646271999994" y="2060.689737816586"/>
+          <y:Geometry height="300.6903683413864" width="236.77292543999994" x="-448.38646271999994" y="2060.689737816586"/>
           <y:Fill color="#00BFFF" color2="#1E90FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#1E90FF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.716796875" x="75.02806428249994" xml:space="preserve" y="4.0">authority_name</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="283.322265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="171.390625" x="2.0" xml:space="preserve" y="30.701171875">id_authority_name
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="268.62109375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="171.390625" x="2.0" xml:space="preserve" y="30.701171875">id_authority_name
 public
 id_authority
 name_german
@@ -2422,8 +2422,7 @@ date_from
 date_to
 id_numismatic_time_slice_from
 id_numismatic_time_slice_to
-id_era_from
-id_era_to
+id_era
 comment_public_german
 comment_public_french
 comment_public_italian
@@ -3059,7 +3058,7 @@ comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:
     <node id="n109">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="303.0027354997083" width="240.06125977600004" x="-450.030629888" y="315.16332299703174"/>
+          <y:Geometry height="302.2633932637685" width="240.06125977600004" x="-450.030629888" y="315.16332299703174"/>
           <y:Fill color="#00BFFF" color2="#1E90FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#1E90FF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="63.361328125" x="88.34996582550002" xml:space="preserve" y="4.0">mint_name</y:NodeLabel>
@@ -3067,14 +3066,14 @@ comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:
 public
 id_mint
 mint_acronym
+order_number
 name_german
 name_french
 name_italian
 name_english
 id_numismatic_time_slice_from
 id_numismatic_time_slice_to
-id_era_from
-id_era_to
+id_era
 comment_public_german
 comment_public_french
 comment_public_italian
@@ -5026,8 +5025,8 @@ manual_order_number<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
           <y:Geometry height="109.37483443289511" width="229.66863705945934" x="-1524.8343185297297" y="2832.0408970719745"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="186.126953125" x="21.77084196722967" xml:space="preserve" y="4.0">bibliography_bibliography_relation</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="202.140625" x="2.0" xml:space="preserve" y="30.701171875">id_bibliography_bibliography_relation
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="167.447265625" x="31.11068571722967" xml:space="preserve" y="4.0">bibliography_bibliography_part</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="183.4609375" x="2.0" xml:space="preserve" y="30.701171875">id_bibliography_bibliography_part
 public
 id_bibliography
 part_id_bibliography
