@@ -1118,9 +1118,9 @@ def create_tables_l02():
 
 	# L02:028
 	cur.execute("""
-				CREATE TABLE prim_source_doc_prim_source_doc_relation(
+				CREATE TABLE prim_source_doc_prim_source_doc_part(
 
-				id_prim_source_doc_prim_source_doc_relation INT AUTO_INCREMENT PRIMARY KEY,
+				id_prim_source_doc_prim_source_doc_part INT AUTO_INCREMENT PRIMARY KEY,
 				public BOOLEAN,
 				id_primary_source_document INT,
 				part_id_primary_source_document INT,

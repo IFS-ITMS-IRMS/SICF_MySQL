@@ -47,7 +47,7 @@ def drop_tables_l02():
 	cur.execute("DROP TABLE IF EXISTS primary_source_document_language_junction") # L02:025
 	cur.execute("DROP TABLE IF EXISTS primary_source_document_manufacture_junction") # L02:026
 	cur.execute("DROP TABLE IF EXISTS primary_source_document_external_reference") # L02:027
-	cur.execute("DROP TABLE IF EXISTS prim_source_doc_prim_source_doc_relation") # L02:028
+	cur.execute("DROP TABLE IF EXISTS prim_source_doc_prim_source_doc_part") # L02:028
 	cur.execute("DROP TABLE IF EXISTS primary_source_document_citation") # L02:029
 	cur.execute("DROP TABLE IF EXISTS remark_user_bibliography_text") # L02:030
 	cur.execute("DROP TABLE IF EXISTS remark_user_bibliography_numeric") # L02:031
