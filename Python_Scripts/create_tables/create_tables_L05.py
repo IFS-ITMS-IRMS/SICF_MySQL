@@ -489,6 +489,156 @@ def create_tables_l05():
 
 	""")
 
+	# L05:012
+	cur.execute("""
+				CREATE TABLE geography_biblio_junction(
+
+				id_geography_biblio_junction INT AUTO_INCREMENT PRIMARY KEY,
+				public BOOLEAN,
+				id_fundstelle_ort_lieu INT,
+				id_commune INT,
+				id_district INT,
+				id_modern_region INT,
+				id_modern_state INT,
+				id_geographical_unit INT,
+				id_biblio_citation INT,
+				id_bibliography INT,
+				id_biblio_junction_boilerplate INT,
+				archaeological_id_biblio_junction_detaillierungsgrad INT,
+				numismatic_id_biblio_junction_detaillierungsgrad INT,
+				text_german VARCHAR(255),
+				text_french VARCHAR(255),
+				text_italian VARCHAR(255),
+				text_english VARCHAR(255),
+				remark_internal VARCHAR(255),
+				entry_created_date DATE,
+				entry_creator_id_user INT,
+				transfer_date DATE,
+				transfer_id_data_source INT,
+				last_modified_date DATE,
+				last_modification_id_user INT,
+
+				FOREIGN KEY (id_fundstelle_ort_lieu)
+					REFERENCES fundstelle_ort_lieu(id_fundstelle_ort_lieu),
+
+				FOREIGN KEY (id_commune)
+					REFERENCES commune(id_commune),
+
+				FOREIGN KEY (id_district)
+					REFERENCES district(id_district),
+
+				FOREIGN KEY (id_modern_region)
+					REFERENCES modern_region(id_modern_region),
+
+				FOREIGN KEY (id_modern_state)
+					REFERENCES modern_state(id_modern_state),
+
+				FOREIGN KEY (id_geographical_unit)
+					REFERENCES geographical_unit(id_geographical_unit),
+
+				FOREIGN KEY (id_biblio_citation)
+					REFERENCES biblio_citation(id_biblio_citation),
+
+				FOREIGN KEY (id_bibliography)
+					REFERENCES bibliography(id_bibliography),
+
+				FOREIGN KEY (id_biblio_junction_boilerplate)
+					REFERENCES biblio_junction_boilerplate(id_biblio_junction_boilerplate),
+
+				FOREIGN KEY (archaeological_id_biblio_junction_detaillierungsgrad)
+					REFERENCES biblio_junction_detaillierungsgrad(id_biblio_junction_detaillierungsgrad),
+
+				FOREIGN KEY (numismatic_id_biblio_junction_detaillierungsgrad)
+					REFERENCES biblio_junction_detaillierungsgrad(id_biblio_junction_detaillierungsgrad),
+
+				FOREIGN KEY (entry_creator_id_user)
+					REFERENCES user(id_user),
+
+				FOREIGN KEY (transfer_id_data_source)
+					REFERENCES data_source(id_data_source),
+
+				FOREIGN KEY (last_modification_id_user)
+					REFERENCES user(id_user)
+
+				)
+
+	""")
+
+	# L05:013
+	cur.execute("""
+				CREATE TABLE geography_primary_source_document_junction(
+
+				id_geography_primary_source_document_junction INT AUTO_INCREMENT PRIMARY KEY,
+				public BOOLEAN,
+				id_fundstelle_ort_lieu INT,
+				id_commune INT,
+				id_district INT,
+				id_modern_region INT,
+				id_modern_state INT,
+				id_geographical_unit INT,
+				id_primary_source_document_citation INT,
+				id_primary_source_document INT,
+				id_primary_source_document_informative_value INT,
+				archaeological_id_biblio_junction_detaillierungsgrad INT,
+				numismatic_id_biblio_junction_detaillierungsgrad INT,
+				text_german VARCHAR(255),
+				text_french VARCHAR(255),
+				text_italian VARCHAR(255),
+				text_english VARCHAR(255),
+				remark_internal VARCHAR(255),
+				entry_created_date DATE,
+				entry_creator_id_user INT,
+				transfer_date DATE,
+				transfer_id_data_source INT,
+				last_modified_date DATE,
+				last_modification_id_user INT,
+
+				FOREIGN KEY (id_fundstelle_ort_lieu)
+					REFERENCES fundstelle_ort_lieu(id_fundstelle_ort_lieu),
+
+				FOREIGN KEY (id_commune)
+					REFERENCES commune(id_commune),
+
+				FOREIGN KEY (id_district)
+					REFERENCES district(id_district),
+
+				FOREIGN KEY (id_modern_region)
+					REFERENCES modern_region(id_modern_region),
+
+				FOREIGN KEY (id_modern_state)
+					REFERENCES modern_state(id_modern_state),
+
+				FOREIGN KEY (id_geographical_unit)
+					REFERENCES geographical_unit(id_geographical_unit),
+
+				FOREIGN KEY (id_primary_source_document_citation)
+					REFERENCES primary_source_document_citation(id_primary_source_document_citation),
+
+				FOREIGN KEY (id_primary_source_document)
+					REFERENCES primary_source_document(id_primary_source_document),
+
+				FOREIGN KEY (id_primary_source_document_informative_value)
+					REFERENCES primary_source_document_informative_value(id_primary_source_document_informative_value),
+
+				FOREIGN KEY (archaeological_id_biblio_junction_detaillierungsgrad)
+					REFERENCES biblio_junction_detaillierungsgrad(id_biblio_junction_detaillierungsgrad),
+
+				FOREIGN KEY (numismatic_id_biblio_junction_detaillierungsgrad)
+					REFERENCES biblio_junction_detaillierungsgrad(id_biblio_junction_detaillierungsgrad),
+
+				FOREIGN KEY (entry_creator_id_user)
+					REFERENCES user(id_user),
+
+				FOREIGN KEY (transfer_id_data_source)
+					REFERENCES data_source(id_data_source),
+
+				FOREIGN KEY (last_modification_id_user)
+					REFERENCES user(id_user)
+
+				)
+
+	""")
+
 	print("L05-tables created")
 
 	return

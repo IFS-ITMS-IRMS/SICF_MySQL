@@ -31,6 +31,8 @@ def drop_tables_l05():
 	cur.execute("DROP TABLE IF EXISTS period_ruler_junction") # L05:009
 	cur.execute("DROP TABLE IF EXISTS period_mint_junction") # L05:010
 	cur.execute("DROP TABLE IF EXISTS period_external_reference") # L05:011
+	cur.execute("DROP TABLE IF EXISTS geography_biblio_junction") # L05:012
+	cur.execute("DROP TABLE IF EXISTS geography_primary_source_document_junction") # L05:013
 
 	print("L05-tables dropped")
 	return

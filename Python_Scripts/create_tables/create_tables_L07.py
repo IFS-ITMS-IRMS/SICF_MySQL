@@ -884,7 +884,6 @@ def create_tables_l07():
 				id_find INT,
 				id_biblio_citation INT,
 				id_bibliography INT,
-				id_biblio_junction_type INT,
 				id_biblio_junction_boilerplate INT,
 				archaeological_id_biblio_junction_detaillierungsgrad INT,
 				numismatic_id_biblio_junction_detaillierungsgrad INT,
@@ -908,9 +907,6 @@ def create_tables_l07():
 
 				FOREIGN KEY (id_bibliography)
 					REFERENCES bibliography(id_bibliography),
-
-				FOREIGN KEY (id_biblio_junction_type)
-					REFERENCES biblio_junction_type(id_biblio_junction_type),
 
 				FOREIGN KEY (id_biblio_junction_boilerplate)
 					REFERENCES biblio_junction_boilerplate(id_biblio_junction_boilerplate),
@@ -943,7 +939,6 @@ def create_tables_l07():
 				id_find INT,
 				id_primary_source_document_citation INT,
 				id_primary_source_document INT,
-				id_biblio_junction_type INT,
 				id_primary_source_document_informative_value INT,
 				archaeological_id_biblio_junction_detaillierungsgrad INT,
 				numismatic_id_biblio_junction_detaillierungsgrad INT,
@@ -967,9 +962,6 @@ def create_tables_l07():
 
 				FOREIGN KEY (id_primary_source_document)
 					REFERENCES primary_source_document(id_primary_source_document),
-
-				FOREIGN KEY (id_biblio_junction_type)
-					REFERENCES biblio_junction_type(id_biblio_junction_type),
 
 				FOREIGN KEY (id_primary_source_document_informative_value)
 					REFERENCES primary_source_document_informative_value(id_primary_source_document_informative_value),

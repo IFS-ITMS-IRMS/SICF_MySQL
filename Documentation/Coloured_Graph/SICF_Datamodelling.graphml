@@ -1150,16 +1150,15 @@ nomisma_org_id<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:Mo
     <node id="n40">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="241.72767214988585" width="293.0464565590253" x="-1524.83431852973" y="60.656717145946004"/>
+          <y:Geometry height="227.55105463024609" width="293.0464565590253" x="-1524.83431852973" y="60.656717145946004"/>
           <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.076171875" x="93.48514234201275" xml:space="preserve" y="4.0">find_biblio_junction</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.81640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="283.521484375" x="2.0" xml:space="preserve" y="30.701171875">id_find_biblio_junction
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="195.115234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="283.521484375" x="2.0" xml:space="preserve" y="30.701171875">id_find_biblio_junction
 public
 id_find
 id_biblio_citation
 id_bibliography
-id_biblio_junction_type
 id_biblio_junction_boilerplate
 archaeological_id_biblio_junction_Detaillierungsgrad
 numismatic_id_biblio_junction_Detaillierungsgrad
@@ -5248,16 +5247,15 @@ comment_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:
     <node id="n201">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="239.9580272733558" width="298.7860624387188" x="-2991.513482983193" y="2005.8844827658972"/>
+          <y:Geometry height="226.5722852386191" width="298.7860624387188" x="-2991.513482983193" y="2005.8844827658972"/>
           <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="258.818359375" x="19.983851531859273" xml:space="preserve" y="4.0">find_object_primary_source_document_junction</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.81640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="283.521484375" x="2.0" xml:space="preserve" y="30.701171875">id_find_object_primary_source_document_junction
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="195.115234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="283.521484375" x="2.0" xml:space="preserve" y="30.701171875">id_find_object_primary_source_document_junction
 public
 id_find_object
 id_primary_source_document_citation
 id_primary_source_document
-id_biblio_junction_type
 id_primary_source_document_informative_value
 archaeological_id_biblio_junction_Detaillierungsgrad
 numismatic_id_biblio_junction_Detaillierungsgrad
@@ -5910,6 +5908,68 @@ editor_flag
 id_modern_person_name
 id_organisation_name
 manual_order_number<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n232">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="300.4976790132255" width="290.54470052614784" x="-1524.8343185297294" y="3543.991282178692"/>
+          <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="143.44140625" x="73.55164713807403" xml:space="preserve" y="4.0">geography_biblio_junction</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="268.62109375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="283.521484375" x="2.0" xml:space="preserve" y="30.701171875">id_geography_biblio_junction
+public
+ID Fundstelle Ort/lieu
+id_commune
+id_district
+id_modern_region
+id_modern_state
+id_geographical_unit
+id_biblio_citation
+id_bibliography
+id_biblio_junction_boilerplate
+archaeological_id_biblio_junction_Detaillierungsgrad
+numismatic_id_biblio_junction_Detaillierungsgrad
+text_german
+text_french
+text_italian
+text_english
+remark_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n233">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="300.16935525697954" width="289.7107818485215" x="-2991.5134829831923" y="4138.458749936193"/>
+          <y:Fill color="#ADFF2F" color2="#7CFC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#7CFC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="257.48828125" x="16.111250299260973" xml:space="preserve" y="4.0">geography_primary_source_document_junction</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="268.62109375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="283.521484375" x="2.0" xml:space="preserve" y="30.701171875">id_geography_primary_source_document_junction
+public
+ID Fundstelle Ort/lieu
+id_commune
+id_district
+id_modern_region
+id_modern_state
+id_geographical_unit
+id_primary_source_document_citation
+id_primary_source_document
+id_primary_source_document_informative_value
+archaeological_id_biblio_junction_Detaillierungsgrad
+numismatic_id_biblio_junction_Detaillierungsgrad
+text_german
+text_french
+text_italian
+text_english
+remark_internal<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
