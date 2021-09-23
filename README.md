@@ -56,5 +56,5 @@ In the `main_MySQL_Database.py` script the create- and drop-function-calls can b
 To generate the ER-Diagram using the MySQL Workbench these [instructions](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/tree/main/Documentation/Generate-ER-Diagram) can be followed.
 
 #### Documentation
-All tables are given a number within their level and are identified as LXX:YYY, e.g., L02:005 is the fifth table in Level 2. The ordering of the tables within one level can be treated as arbitrary, but the same table is identified with its number in `create_tables_LXX.py`, `drop_tables_LXX.py` as well as in the ER-schema, [ER_Schema.pdf](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/blob/main/Documentation/ER_Schema_MySQL_DB_Draft.pdf).  
+All tables are given a number within their level and are identified as LXX:YYY, e.g., L02:005 is the fifth table in Level 2. The ordering of the tables within one level can be treated as arbitrary, but the same table is identified with its number in `create_tables_LXX.py`, `drop_tables_LXX.py` as well as in the ER-schema, [ER_Schema_MySQL_DB_Draft.pdf](https://github.com/IFS-ITMS-IRMS/SICF_MySQL/blob/main/Documentation/ER_Schema_MySQL_DB_Draft.pdf).  
 Constraints that are not foreign key constraints are documented in the ER-schema.
