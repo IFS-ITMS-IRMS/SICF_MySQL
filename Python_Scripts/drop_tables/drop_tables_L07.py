@@ -30,7 +30,7 @@ def drop_tables_l07():
 	cur.execute("DROP TABLE IF EXISTS find_find_type_junction") # L07:008
 	cur.execute("DROP TABLE IF EXISTS find_sicf_number") # L07:009
 	cur.execute("DROP TABLE IF EXISTS find_external_reference") # L07:010
-	cur.execute("DROP TABLE IF EXISTS find_find_relation") # L07:011
+	cur.execute("DROP TABLE IF EXISTS find_find_part") # L07:011
 	cur.execute("DROP TABLE IF EXISTS find_object") # L07:012
 	cur.execute("DROP TABLE IF EXISTS container") # L07:013
 	cur.execute("DROP TABLE IF EXISTS find_archaeological_event_junction") # L07:014

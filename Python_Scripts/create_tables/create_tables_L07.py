@@ -462,9 +462,9 @@ def create_tables_l07():
 
 	# L07:011
 	cur.execute("""
-				CREATE TABLE find_find_relation(
+				CREATE TABLE find_find_part(
 
-				id_find_find_relation INT AUTO_INCREMENT PRIMARY KEY,
+				id_find_find_part INT AUTO_INCREMENT PRIMARY KEY,
 				public BOOLEAN,
 				komplex_id_find INT,
 				unterkomplex_id_find INT,
