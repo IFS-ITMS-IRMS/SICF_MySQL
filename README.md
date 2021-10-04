@@ -33,7 +33,7 @@ SICF_MySQL
 		-> Install-Mock-up-db-IFS
 		-> ER_Schema.pdf
 		-> IFS_Datenmodellierung_Kernpunkte.pdf
-		-> SICF_Datamodelling_Overview.jpg
+		-> SICF_Datamodelling_Overview.png
 	-> Python_Scripts
 		|
 		-> main_MySQL_Database.py
